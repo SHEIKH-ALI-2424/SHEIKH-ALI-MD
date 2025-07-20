@@ -44,7 +44,7 @@ const {
   const path = require('path')
   const prefix = config.PREFIX
   
-  const ownerNumber = ['923143702270']
+  const ownerNumber = ['923427582273']
   
   const tempDir = path.join(os.tmpdir(), 'cache-temp')
   if (!fs.existsSync(tempDir)) {
@@ -81,20 +81,20 @@ const app = express();
 const port = process.env.PORT || 9090;
   
   //=============================================
-
- async function connectToWA() {
+  
+  async function connectToWA() {
   console.log("Connecting to WhatsApp ⏳️...");
   const { state, saveCreds } = await useMultiFileAuthState(__dirname + '/sessions/')
   var { version } = await fetchLatestBaileysVersion()
-
+  
   const conn = makeWASocket({
-    logger: P({ level: 'silent' }),
-    printQRInTerminal: false,
-    browser: Browsers.macOS("Firefox"),
-    syncFullHistory: true,
-    auth: state,
-    version
-  })
+          logger: P({ level: 'silent' }),
+          printQRInTerminal: false,
+          browser: Browsers.macOS("Firefox"),
+          syncFullHistory: true,
+          auth: state,
+          version
+          })
       
   conn.ev.on('connection.update', (update) => {
   const { connection, lastDisconnect } = update
@@ -113,8 +113,21 @@ const port = process.env.PORT || 9090;
   console.log('Plugins installed successful ✅')
   console.log('Bot connected to whatsapp ✅')
   
-  let up = `┏━━━━━━━━━━━━━━ \n┃𝐒𝐇𝐄𝐈𝐊𝐇-𝐀𝐋𝐈-𝐌𝐃\n┃𝐒𝐔𝐂𝐂𝐄𝐒𝐒𝐅𝐔𝐋𝐋𝐘 \n┃𝐂𝐎𝐍𝐍𝐄𝐂𝐓𝐄𝐃 ✅🔥\n┗━━━━━━━━━━━━━━━ \n▬▬▬▬▬▬▬▬▬▬▬▬▬▬\n ★ || ᴄʀᴇᴀᴛᴏʀ = 𖥘⚡ 𝐀𝐋𝐈 𝐀𝐇𝐌𝐀𝐃•••²⁴⁰² ⚡𖥘 \n▬▬▬▬▬▬▬▬▬▬▬▬▬▬\n ★ || ᴏᴡɴᴇʀ = https://wa.me/923143702270 \n▬▬▬▬▬▬▬▬▬▬▬▬▬▬\n ★ || ᴡʜᴀᴛsᴀᴘᴘ = https://whatsapp.com/channel/0029Vao1lnR1nozDF8jBNh3B\n▬▬▬▬▬▬▬▬▬▬▬▬▬▬\n ★ || ʙᴏᴛ ʀᴇᴘᴏ = https://github.com/SHEIKH-ALI-2424/SHEIKH-ALI-MD \n▬▬▬▬▬▬▬▬▬▬▬▬▬▬\n ★ || ʏᴏᴜᴛᴜʙᴇ = https://youtube.com/@sheikh-ali-2412?si=jtHyERObmqci0YEo  \n▬▬▬▬▬▬▬▬▬▬▬▬▬▬\n ★ || ʏᴏᴜʀ ᴘʀᴇғɪx: = ${prefix}\n▬▬▬▬▬▬▬▬▬▬▬▬▬▬\n ★ || ᴍᴏᴅᴇ = ${config.MODE}\n▬▬▬▬▬▬▬▬▬▬▬▬▬▬\n> © ᴘᴏᴡᴇʀᴇᴅ ʙʏ 𓄂𝕚𝕥𝕩.𝑺𝑯𝑬𝑰𝑲𝑯 𝑨𝑳𝑰 🔥༽༼ ♡ `;
-    conn.sendMessage(conn.user.id, { image: { url: `https://i.imghippo.com/files/YZK6549KW.jpg` }, caption: up })
+  let up = `╭─〔 *🤖 KHAN-MD BOT* 〕  
+├─▸ *Ultra Super Fast Powerfull ⚠️*  
+│     *World Best BOT KHAN-MD* 
+╰─➤ *Your Smart WhatsApp Bot is Ready To use 🍁!*  
+
+- *🖤 Thank You for Choosing KHAN-MD!* 
+
+╭──〔 🔗 *Information* 〕  
+├─ 🧩 *Prefix:* = ${prefix}
+├─ 📢 *Join Channel:*  
+│    https://whatsapp.com/channel/0029VatOy2EAzNc2WcShQw1j  
+├─ 🌟 *Star the Repo:*  
+│    https://github.com/JawadYT36/KHAN-MD  
+╰─🚀 *Powered by JawadTechX*`;
+    conn.sendMessage(conn.user.id, { image: { url: `https://files.catbox.moe/7zfdcq.jpg` }, caption: up })
   }
   })
   conn.ev.on('creds.update', saveCreds)
@@ -202,7 +215,7 @@ const port = process.env.PORT || 9090;
   }
 
   const udp = botNumber.split('@')[0];
-    const jawadop = ('923143702270', '923191089077', '923427582273');
+    const jawadop = ('923470027813', '923191089077', '923427582273');
     
     const ownerFilev2 = JSON.parse(fs.readFileSync('./lib/sudo.json', 'utf-8'));  
     
@@ -770,7 +783,7 @@ if (isBanned) return; // Ignore banned users completely
   }
   
   app.get("/", (req, res) => {
-  res.send("𝐒𝐇𝐄𝐈𝐊𝐇-𝐀𝐋𝐈-𝐌𝐃 STARTED ✅");
+  res.send("KHAN MD STARTED ✅");
   });
   app.listen(port, () => console.log(`Server listening on port http://localhost:${port}`));
   setTimeout(() => {
