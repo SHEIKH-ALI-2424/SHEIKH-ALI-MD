@@ -113,29 +113,7 @@ const port = process.env.PORT || 9090;
   console.log('Plugins installed successful ✅')
   console.log('Bot connected to whatsapp ✅')
   
-  let up = `╭─〔 *🤖 𝐒𝐇𝐄𝐈𝐊𝐇-𝐀𝐋𝐈-𝐌𝐃 BOT* 〕  
-├─▸ *Ultra Super Fast Powerfull ⚠️*  
-│     *World Best BOT 𝐒𝐇𝐄𝐈𝐊𝐇-𝐀𝐋𝐈-𝐌𝐃* 
-╰─➤ *Your Smart WhatsApp Bot is Ready To use 🍁!*  
-
-- *🖤 Thank You for Choosing 𝐒𝐇𝐄𝐈𝐊𝐇-𝐀𝐋𝐈-𝐌𝐃!* 
-
-╭──〔 🔗 *Information* 〕  
-├─ 🧩 *Prefix:* = ${prefix}
-├─ 📢 *Join Channel:*  
-│      https://whatsapp.com/channel/0029VahpgB7L7UVXkL6oMw1k 
-├─ 📢 *Join Channel:*
-│      https://whatsapp.com/channel/0029Vao1lnR1nozDF8jBNh3B
-├─ 📢 *Join YouTube:*
-│      https://youtube.com/@sheikh-ali-2412?si=jtHyERObmqci0YEo
-├─ 📢 *Join Facebook:*
-│      https://www.facebook.com/share/1CbxaKdPST/
-├─ 📢 *Join Instagram:*
-│      https://www.instagram.com/sheikh_ali_2402?igsh=MXF5cmthcm1mczhhbg==
-╰───────────────
-╭──〔 🌟 *Star the Repo:* 〕 
-│    https://github.com/SHEIKH-ALI-2424/SHEIKH-ALI-MD  
-╰─🚀 _*Pᴏᴡᴇʀᴇᴅ Bʏ 𒁂𓄂❥.𝑺𝑯𝑬𝑰𝑲𝑯 𝑨𝑳𝑰 🔥༽༼࿐ ♡••²⁴⁰²*_`;
+  let up = `┏━━━━━━━━━━━━━━ \n┃𝐒𝐇𝐄𝐈𝐊𝐇-𝐀𝐋𝐈-𝐌𝐃\n┃𝐒𝐔𝐂𝐂𝐄𝐒𝐒𝐅𝐔𝐋𝐋𝐘 \n┃𝐂𝐎𝐍𝐍𝐄𝐂𝐓𝐄𝐃 ✅🔥\n┗━━━━━━━━━━━━━━━ \n▬▬▬▬▬▬▬▬▬▬▬▬▬▬\n ★ || ᴄʀᴇᴀᴛᴏʀ = 𖥘⚡ 𝐀𝐋𝐈 𝐀𝐇𝐌𝐀𝐃•••²⁴⁰² ⚡𖥘 \n▬▬▬▬▬▬▬▬▬▬▬▬▬▬\n ★ || ᴏᴡɴᴇʀ = https://wa.me/923143702270 \n▬▬▬▬▬▬▬▬▬▬▬▬▬▬\n ★ || ᴡʜᴀᴛsᴀᴘᴘ = https://whatsapp.com/channel/0029Vao1lnR1nozDF8jBNh3B\n▬▬▬▬▬▬▬▬▬▬▬▬▬▬\n ★ || ʙᴏᴛ ʀᴇᴘᴏ = https://github.com/SHEIKH-ALI-2424/SHEIKH-ALI-MD \n▬▬▬▬▬▬▬▬▬▬▬▬▬▬\n ★ || ʏᴏᴜᴛᴜʙᴇ = https://youtube.com/@sheikh-ali-2412?si=jtHyERObmqci0YEo  \n▬▬▬▬▬▬▬▬▬▬▬▬▬▬\n ★ || ʏᴏᴜʀ ᴘʀᴇғɪx: = ${prefix}\n▬▬▬▬▬▬▬▬▬▬▬▬▬▬\n ★ || ᴍᴏᴅᴇ = ${config.MODE}\n▬▬▬▬▬▬▬▬▬▬▬▬▬▬\n> © ᴘᴏᴡᴇʀᴇᴅ ʙʏ 𓄂𝕚𝕥𝕩.𝑺𝑯𝑬𝑰𝑲𝑯 𝑨𝑳𝑰 🔥༽༼ ♡ `;
     conn.sendMessage(conn.user.id, { image: { url: `https://i.imghippo.com/files/YZK6549KW.jpg` }, caption: up })
   }
   })
