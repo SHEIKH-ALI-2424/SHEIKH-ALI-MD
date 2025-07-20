@@ -1,5 +1,5 @@
 <p align="center">
-  <h1 align="center" style="font-family: 'Orbitron', sans-serif; text-shadow: 0 0 10px #00ffff, 0 0 20px #0088ff;">𝗞𝗛𝗔𝗡-𝗠𝗗</h1>
+  <h1 align="center" style="font-family: 'Orbitron', sans-serif; text-shadow: 0 0 10px #00ffff, 0 0 20px #0088ff;">𝐒𝐇𝐄𝐈𝐊𝐇-𝐀𝐋𝐈-𝐌𝐃</h1>
 </p>
 
 <p align="center">
@@ -60,14 +60,14 @@
   
 --- 
 > **PAIRING LINK (01)**
-  <a href='https://sheikh-ali-md-pair-6d03e657cd06.herokuapp.com/' target="_blank">
+  <a href='https://pair-site-kx6l.onrender.com' target="_blank">
     <img src='https://img.shields.io/badge/PAIR_CODE_1-00FFFF?style=for-the-badge&logo=matrix&logoColor=white&labelColor=000000'/>
   </a></br>
   
   <div style="height: 10px;"></div>
   
 > **PAIRiNG LINK (02)**
-  <a href='https://jawadmd-pair.onrender.com/pair' target="_blank">
+  <a href='https://khanmd-pair.onrender.com/' target="_blank">
     <img src='https://img.shields.io/badge/PAIR_CODE_2-FF00FF?style=for-the-badge&logo=matrix&logoColor=white&labelColor=000000'/>
   </a>
   
@@ -89,11 +89,11 @@
 <div align="center">
   <table>
     <tr>
-      <td><a href="https://dashboard.heroku.com/new?template=https://github.com/SHEIKH-ALI-2424/IK" target="_blank"><img src="https://img.shields.io/badge/Heroku-430098?style=for-the-badge&logo=heroku&logoColor=white&labelColor=000000&color=00ffff"/></a></td>
+      <td><a href="https://dashboard.heroku.com/new?template=https://github.com/SHEIKH-ALI-2424/SHEIKH-ALI-MD" target="_blank"><img src="https://img.shields.io/badge/Heroku-430098?style=for-the-badge&logo=heroku&logoColor=white&labelColor=000000&color=00ffff"/></a></td>
       <td><a href="https://talkdrove.com" target="_blank"><img src="https://img.shields.io/badge/TalkDrove-6971FF?style=for-the-badge&logo=github&logoColor=white&labelColor=000000"/></a></td>
     </tr>
     <tr>
-      <td><a href="https://app.koyeb.com/services/deploy?type=git&repository=SHEIKH-ALI-2424/IK" target="_blank"><img src="https://img.shields.io/badge/Koyeb-FF009D?style=for-the-badge&logo=koyeb&logoColor=white&labelColor=000000"/></a></td>
+      <td><a href="https://app.koyeb.com/services/deploy?type=git&repository=SHEIKH-ALI-2424/SHEIKH-ALI-MD" target="_blank"><img src="https://img.shields.io/badge/Koyeb-FF009D?style=for-the-badge&logo=koyeb&logoColor=white&labelColor=000000"/></a></td>
       <td><a href="https://railway.app/new" target="_blank"><img src="https://img.shields.io/badge/Railway-FF8700?style=for-the-badge&logo=railway&logoColor=white&labelColor=000000"/></a></td>
     </tr>
     <tr>
@@ -165,7 +165,7 @@
   <img src="https://github.com/SHEIKH-ALI-2424/SHEIKH-ALI-MD/blob/main/assets/futuretech.gif?raw=true" width="100%"/>
 </div>
 
-## 👑 KHAN STATUS
+## 👑 SHEIKH-ALI-MD STATUS
 
 ```diff
 + Project Status: Active
