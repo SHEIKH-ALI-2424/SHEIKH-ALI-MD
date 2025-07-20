@@ -42,8 +42,8 @@ cmd({
             `👤 *Author:* ${author?.name || "Unknown"}\n` +
             `🖇 *Url:* ${url || "Unknown"}\n\n` +
             `🔽 *Reply with your choice:*\n` +
-            `1 *Audio Type* 🎵\n` +
-            `2 *Document Type* 📁\n\n` +
+            `1: *Audio Type* 🎵\n` +
+            `2: *Document Type* 📁\n\n` +
             `${config.FOOTER || "© Pᴏᴡᴇʀᴇᴅ Bʏ 𒁂𓄂❥.𝑺𝑯𝑬𝑰𝑲𝑯 𝑨𝑳𝑰 🔥༽༼࿐ ♡••²⁴⁰²"}`;
 
         const sentMsg = await conn.sendMessage(from, { image: { url: image }, caption: info }, { quoted: mek });
