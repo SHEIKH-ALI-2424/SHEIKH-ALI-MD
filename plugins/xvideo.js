@@ -61,7 +61,7 @@ cmd({
 
     await conn.sendMessage(msgInfo.chat, {
       video: fs.readFileSync(filePath),
-      caption: `*SUBZERO MD XVIDEOS DL*\n\n🎥 *Title:* ${video.title}\n👀 *Views:* ${video.views}\n👍 *Likes:* ${video.likes}`
+      caption: `*SHEIKH-ALI-MD XVIDEOS DL*\n\n🎥 *Title:* ${video.title}\n👀 *Views:* ${video.views}\n👍 *Likes:* ${video.likes}\n> © Pᴏᴡᴇʀᴇᴅ Bʏ 𒁂𓄂❥.𝑺𝑯𝑬𝑰𝑲𝑯 𝑨𝑳𝑰 🔥༽༼࿐ ♡••²⁴⁰²`
     });
 
     fs.unlinkSync(filePath); // delete after sending
