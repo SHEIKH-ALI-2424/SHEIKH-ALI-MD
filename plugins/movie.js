@@ -2,7 +2,7 @@ pconst axios = require('axios');
 const { cmd } = require('../command');
 
 cmd({
-    pattern: "movie2",
+    pattern: "movie",
     desc: "Fetch detailed information about a movie.",
     category: "utility",
     react: "🎬",
