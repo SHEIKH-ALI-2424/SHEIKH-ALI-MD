@@ -42,7 +42,7 @@ cmd({
     const title = video.title.replace(/[<>:"/\\|?*]/g, '');
     const filePath = path.join(__dirname, title + '.mp4');
 
-    console.log("SHEIKH-ALI-MD Downloading video...");
+    console.log("Subzero Downloading video...");
     const videoStream = await axios({
       url: videoUrl,
       method: 'GET',
@@ -57,11 +57,11 @@ cmd({
       writer.on('error', reject);
     });
 
-    console.log("SHEIKH-ALI-MD downloaded video successfully:", filePath);
+    console.log("Subzero downloaded video successfully:", filePath);
 
     await conn.sendMessage(msgInfo.chat, {
       video: fs.readFileSync(filePath),
-      caption: `*SHEIKH-ALI-MD XVIDEOS DL*\n\n🎥 *Title:* ${video.title}\n👀 *Views:* ${video.views}\n👍 *Likes:* ${video.likes}`
+      caption: `*SUBZERO MD XVIDEOS DL*\n\n🎥 *Title:* ${video.title}\n👀 *Views:* ${video.views}\n👍 *Likes:* ${video.likes}`
     });
 
     fs.unlinkSync(filePath); // delete after sending
