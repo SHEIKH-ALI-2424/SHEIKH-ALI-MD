@@ -7,8 +7,8 @@ const axios = require("axios");
 const { cmd, commands } = require('../command');
 
 cmd({
-  pattern: "ig2",
-  alias: ["insta2", "Instagram2"],
+  pattern: "ig",
+  alias: ["insta", "Instagram"],
   desc: "To download Instagram videos.",
   react: "🎥",
   category: "download",
@@ -161,7 +161,7 @@ cmd({
 // MediaFire-dl
 
 cmd({
-  pattern: "mediafire2",
+  pattern: "mediafire",
   alias: ["mfire"],
   desc: "To download MediaFire files.",
   react: "🎥",
