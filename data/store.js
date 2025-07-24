@@ -215,4 +215,4 @@ module.exports = {
     saveMessage: saveMessageV2,
 };
 
-// codes by SHEIKH ALI 
+// © Pᴏᴡᴇʀᴇᴅ Bʏ 𒁂𓄂❥.𝑺𝑯𝑬𝑰𝑲𝑯 𝑨𝑳𝑰 🔥༽༼࿐ ♡••²⁴⁰²
