@@ -31,9 +31,9 @@ MENU_IMAGE_URL: process.env.MENU_IMAGE_URL || "https://i.imghippo.com/files/YZK6
 // add custom menu and mention reply image url
 PREFIX: process.env.PREFIX || ".",
 // add your prifix for bot   
-BOT_NAME: process.env.BOT_NAME || "SHEIKH-ALI-MD",
+BOT_NAME: process.env.BOT_NAME || "𝐒𝚯𝚵𝚰𝐊𝚯 𝚫𝐋𝚰 〽️𝐃",
 // add bot namw here for menu
-STICKER_NAME: process.env.STICKER_NAME || "SHEIKH-ALI-MD",
+STICKER_NAME: process.env.STICKER_NAME || "𝐒𝚯𝚵𝚰𝐊𝚯 𝚫𝐋𝚰 〽️𝐃",
 // type sticker pack name 
 CUSTOM_REACT: process.env.CUSTOM_REACT || "false",
 // make this true for custum emoji react    
@@ -45,11 +45,11 @@ OWNER_NUMBER: process.env.OWNER_NUMBER || "923143702270",
 // add your bot owner number
 OWNER_NAME: process.env.OWNER_NAME || "𒁂𓄂❥𝕚𝕥𝕩.𝑺𝑯𝑬𝑰𝑲𝑯 𝑨𝑳𝑰 🔥༽༼ ♡𒁂",
 // add bot owner name
-DESCRIPTION: process.env.DESCRIPTION || "*© Pᴏᴡᴇʀᴇᴅ Bʏ 𒁂𓄂❥.𝑺𝑯𝑬𝑰𝑲𝑯 𝑨𝑳𝑰 🔥༽༼࿐ ♡••²⁴⁰²*",
+DESCRIPTION: process.env.DESCRIPTION || "*© Pᴏᴡᴇʀᴇᴅ Bʏ 𝐒𝚯𝚵𝚰𝐊𝚯 𝚫𝐋𝚰 〽️𝐃*",
 // add bot owner name    
-ALIVE_IMG: process.env.ALIVE_IMG || "https://files.catbox.moe/149k8x.jpg",
+ALIVE_IMG: process.env.ALIVE_IMG || "https://i.imghippo.com/files/JgI8278ypg.jpg",
 // add img for alive msg
-LIVE_MSG: process.env.LIVE_MSG || "> Zinda Hun Yar *𝐒𝐇𝐄𝐈𝐊𝐇-𝐀𝐋𝐈-𝐌𝐃*⚡",
+LIVE_MSG: process.env.LIVE_MSG || "> I Aᴍ Wʜᴀᴛsᴀᴘᴘ Multiple Bot 𝐒𝚯𝚵𝚰𝐊𝚯 𝚫𝐋𝚰 〽️𝐃*⚡",
 // add alive msg here 
 READ_MESSAGE: process.env.READ_MESSAGE || "false",
 // Turn true or false for automatic read msgs

@@ -1,5 +1,5 @@
 {
-  "name": "SHEIKH-ALI-MD",
+  "name": "𝐒𝚯𝚵𝚰𝐊𝚯 𝚫𝐋𝚰 〽️𝐃",
   "description": "A multiple JavaScript WhatsApp bot created by 𝐀𝐋𝐈 𝐀𝐇𝐌𝐀𝐃•••²⁴⁰⁶ ❤️",
   "logo": "https://i.imghippo.com/files/YZK6549KW.jpg",
   "keywords": ["SHEIKH-ALI-MD"],
@@ -16,7 +16,7 @@
     "STICKER_NAME": {
       "description": "type your sticker pack name.",
       "required": false,
-      "value": "SHEIKH-ALI-MD"
+      "value": "𝐒𝚯𝚵𝚰𝐊𝚯 𝚫𝐋𝚰 〽️𝐃"
     }, 
       
     "PREFIX": {
@@ -98,7 +98,7 @@
     "BOT_NAME": {
       "description": "Type here the bot name.",
       "required": false,
-      "value": "SHEIKH-ALI-MD"
+      "value": "𝐒𝚯𝚵𝚰𝐊𝚯 𝚫𝐋𝚰 〽️𝐃"
 
       }, 
 
@@ -137,7 +137,7 @@
      "DESCRIPTION": {
       "description": "add caption for menu and other",
       "required": false,
-      "value": "*© Pᴏᴡᴇʀᴇᴅ Bʏ 𒁂𓄂❥.𝑺𝑯𝑬𝑰𝑲𝑯 𝑨𝑳𝑰 🔥༽༼࿐ ♡••²⁴⁰²*"
+      "value": "*© Pᴏᴡᴇʀᴇᴅ Bʏ 𝐒𝚯𝚵𝚰𝐊𝚯 𝚫𝐋𝚰 〽️𝐃*"
     },
 
       "DELETE_LINKS": {

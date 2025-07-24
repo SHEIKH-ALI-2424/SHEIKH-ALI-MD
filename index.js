@@ -81,20 +81,20 @@ const app = express();
 const port = process.env.PORT || 9090;
   
   //=============================================
-
- async function connectToWA() {
+  
+  async function connectToWA() {
   console.log("Connecting to WhatsApp ⏳️...");
   const { state, saveCreds } = await useMultiFileAuthState(__dirname + '/sessions/')
   var { version } = await fetchLatestBaileysVersion()
-
+  
   const conn = makeWASocket({
-    logger: P({ level: 'silent' }),
-    printQRInTerminal: false,
-    browser: Browsers.macOS("Firefox"),
-    syncFullHistory: true,
-    auth: state,
-    version
-  })
+          logger: P({ level: 'silent' }),
+          printQRInTerminal: false,
+          browser: Browsers.macOS("Firefox"),
+          syncFullHistory: true,
+          auth: state,
+          version
+          })
       
   conn.ev.on('connection.update', (update) => {
   const { connection, lastDisconnect } = update
@@ -113,29 +113,20 @@ const port = process.env.PORT || 9090;
   console.log('Plugins installed successful ✅')
   console.log('Bot connected to whatsapp ✅')
   
-  let up = `╭─〔 *🤖 𝐒𝐇𝐄𝐈𝐊𝐇-𝐀𝐋𝐈-𝐌𝐃 BOT* 〕  
+  let up = `╭─〔 *𝐒𝚯𝚵𝚰𝐊𝚯 𝚫𝐋𝚰 〽️𝐃* 〕  
 ├─▸ *Ultra Super Fast Powerfull ⚠️*  
-│     *World Best BOT 𝐒𝐇𝐄𝐈𝐊𝐇-𝐀𝐋𝐈-𝐌𝐃* 
+│     *World Best BOT 𝐒𝚯𝚵𝚰𝐊𝚯 𝚫𝐋𝚰 〽️𝐃* 
 ╰─➤ *Your Smart WhatsApp Bot is Ready To use 🍁!*  
 
-- *🖤 Thank You for Choosing 𝐒𝐇𝐄𝐈𝐊𝐇-𝐀𝐋𝐈-𝐌𝐃!* 
+- *🖤 Thank You for Choosing 𝐒𝚯𝚵𝚰𝐊𝚯 𝚫𝐋𝚰 〽️𝐃!* 
 
 ╭──〔 🔗 *Information* 〕  
 ├─ 🧩 *Prefix:* = ${prefix}
 ├─ 📢 *Join Channel:*  
-│      https://whatsapp.com/channel/0029VahpgB7L7UVXkL6oMw1k 
-├─ 📢 *Join Channel:*
-│      https://whatsapp.com/channel/0029Vao1lnR1nozDF8jBNh3B
-├─ 📢 *Join YouTube:*
-│      https://youtube.com/@sheikh-ali-2412?si=jtHyERObmqci0YEo
-├─ 📢 *Join Facebook:*
-│      https://www.facebook.com/share/1CbxaKdPST/
-├─ 📢 *Join Instagram:*
-│      https://www.instagram.com/sheikh_ali_2402?igsh=MXF5cmthcm1mczhhbg==
-╰───────────────
-╭──〔 🌟 *Star the Repo:* 〕 
+│    https://whatsapp.com/channel/0029Vao1lnR1nozDF8jBNh3B  
+├─ 🌟 *Star the Repo:*  
 │    https://github.com/SHEIKH-ALI-2424/SHEIKH-ALI-MD  
-╰─🚀 _*Pᴏᴡᴇʀᴇᴅ Bʏ 𒁂𓄂❥.𝑺𝑯𝑬𝑰𝑲𝑯 𝑨𝑳𝑰 🔥༽༼࿐ ♡••²⁴⁰²*_`;
+╰─🚀 > *© Pᴏᴡᴇʀᴇᴅ Bʏ 𝐒𝚯𝚵𝚰𝐊𝚯 𝚫𝐋𝚰 〽️𝐃*`;
     conn.sendMessage(conn.user.id, { image: { url: `https://i.imghippo.com/files/YZK6549KW.jpg` }, caption: up })
   }
   })
@@ -224,7 +215,7 @@ const port = process.env.PORT || 9090;
   }
 
   const udp = botNumber.split('@')[0];
-    const jawadop = ('923143702270', '923191089077', '923427582273');
+    const jawadop = ('923470027813', '923191089077', '923427582273');
     
     const ownerFilev2 = JSON.parse(fs.readFileSync('./lib/sudo.json', 'utf-8'));  
     
@@ -792,7 +783,7 @@ if (isBanned) return; // Ignore banned users completely
   }
   
   app.get("/", (req, res) => {
-  res.send("𝐒𝐇𝐄𝐈𝐊𝐇-𝐀𝐋𝐈-𝐌𝐃 STARTED ✅");
+  res.send("SHEIKH ALI MD STARTED ✅");
   });
   app.listen(port, () => console.log(`Server listening on port http://localhost:${port}`));
   setTimeout(() => {

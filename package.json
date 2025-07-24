@@ -1,7 +1,7 @@
 {
   "name": "SHEIKH-ALI-MD",
   "version": "4.5.0",
-  "description": "A WhatsApp Bot Created By JawadTechX",
+  "description": "A multiple JavaScript WhatsApp bot created by 𝐀𝐋𝐈 𝐀𝐇𝐌𝐀𝐃•••²⁴⁰⁶ ❤️",
   "main": "index.js",
   "scripts": {
     "start": "pm2 start index.js --deep-monitoring --attach --name SHEIKH-ALI-MD",
